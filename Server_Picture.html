@@ -13,14 +13,14 @@
     <title>精選建築圖片</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top borderXwidth" style="padding-bottom: 60px;background-color: white;">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top borderXwidth header">
       <div class="container-fluid">
-          <img alt="logoback" src="image/logoback.png" style="position: absolute;left: 0px;height: 110px;top: 1px;width: 420px;">
-          <img alt="LOGO" src="image/LOGO.png" style="position: absolute;left: 5px;height: 73px;top: 15px;">  
-          <a href="index.html" style="height: 180px;width: 330px;position: absolute;"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"style="position: fixed;right: 10px;top: 13px;">
+          <img alt="logoback" src="image/logoback.png" class="header-logo-back">
+          <img alt="LOGO" src="image/LOGO.png" class="header-logo">  
+          <a href="index.html" class="header-index"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"style="position: fixed;right: 10px;top: 13px;">
           <span class="navbar-toggler-icon"></span>
-        </button> 
+          </button> 
         <div class="collapse navbar-collapse borderXwidth" id="navbarNavDropdown">
           <ul class="navbar-nav nav2">
             <li class="nav-item dropdown">
@@ -28,9 +28,9 @@
                   MineCraft伺服器 ▼
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li style="padding-left: 55px;margin-right: 55px;"><a class="dropdown-item" href="Join_MC_Server.html">如何加入伺服器</a></li>
-                <li style="padding-left: 55px;margin-right: 55px;"><a class="dropdown-item" href="Server_Content.html">伺服器內容索引</a></li>
-                <li style="padding-left: 55px;margin-right: 55px;"><a class="dropdown-item" href="Server_Picture.html">精選建築圖片</a></li>
+                <li class="header-mc-drop"><a class="dropdown-item" href="Join_MC_Server.html">如何加入伺服器</a></li>
+                <!-- <li class="header-mc-drop"><a class="dropdown-item" href="Server_State.html">伺服器狀態</a></li> -->
+                <li class="header-mc-drop"><a class="dropdown-item" href="Server_Picture.html">精選建築圖片</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -38,11 +38,11 @@
                 企劃&活動歷程記錄 ▼
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li style="padding-left: 25px;"><a class="dropdown-item" href="#">半周年紀念</a></li>
-                <li style="padding-left: 25px;"><a class="dropdown-item" href="https://kcgp.tw/zh">可可畢業紀念企劃</a></li>
-                <li style="padding-left: 25px;margin-right: 25px;"><a class="dropdown-item" href="#">2D2CxVTB紅白紀念</a></li>
-                <li style="padding-left: 25px;"><a class="dropdown-item" href="#">獅白百萬紀念企劃</a></li>
-                <li style="padding-left: 25px;"><a class="dropdown-item" href="#">一周年紀念</a></li>
+                <li class="header-activity-drop"><a class="dropdown-item" href="half anniversary.html">半周年紀念</a></li>
+                <li class="header-activity-drop"><a class="dropdown-item" href="https://kcgp.tw/zh">可可畢業紀念企劃</a></li>
+                <li class="header-activity-drop"><a class="dropdown-item" href="https://youtu.be/WqwSy1N7pbU">2D2CxVTB紅白紀念</a></li>
+<!--                 <li class="header-activity-drop"><a class="dropdown-item" href="#">獅白百萬紀念企劃</a></li>  -->
+                <li class="header-activity-drop"><a class="dropdown-item" href="https://youtu.be/5UAH9L8niOo">一周年紀念</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -50,9 +50,9 @@
                   旗下部門與合作 ▼
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li style="padding-left: 30px;margin-right: 75px;"><a class="dropdown-item" href="https://mobile.twitter.com/SeiSouStudio">星奏工作室</a></li>
-                <li style="padding-left: 30px;"><a class="dropdown-item" href="https://twitter.com/vtuberstream">VSR project</a></li>
-                <li style="padding-left: 30px;"><a class="dropdown-item" href="https://studiofeather.com/">Feather Studio</a></li>
+                <li class="header-cooperate-drop-2"><a class="dropdown-item" href="https://mobile.twitter.com/SeiSouStudio">星奏工作室</a></li>
+                <li class="header-cooperate-drop"><a class="dropdown-item" href="https://twitter.com/vtuberstream">VSR project</a></li>
+                <li class="header-cooperate-drop"><a class="dropdown-item" href="https://studiofeather.com/">Feather Studio</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -60,15 +60,15 @@
                   關於2D2C ▼
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">群組規範</a></li>
+                <!-- <li><a class="dropdown-item" href="#">群組規範</a></li> -->
                 <li><a class="dropdown-item" href="Sponsor.html">贊助者名單</a></li>
-                <li style="margin-right: 10px;"><a class="dropdown-item" href="#">介紹與團隊名單</a></li>
+                <li class="header-about-drop"><a class="dropdown-item" href="introduce.html">介紹與團隊名單</a></li>
               </ul>
             </li>
           </ul>
         </div>
       </div>
-    </nav>  
+    </nav>    
       <div id="fullpage">
         <section class="section" id="slide1">
           <div class="container">
@@ -85,7 +85,7 @@
         </section>
         <section class="section" id="slide5">
           <img alt="mctext" class="pic down-back" src="image/BACK.png">
-          <h2 class="tracking-in-expand down-text">絕對"平"原</h2>
+          <h2 class="tracking-in-expand down-text-5">絕對"平"原</h2>
           <h4 class="tracking-in-expand sec-down-text">Survival-1</h4>
         </section>
         <section class="section" id="slide17">
@@ -187,6 +187,11 @@
           <img alt="mctext" class="pic down-back" src="image/BACK.png">
           <h2 class="tracking-in-expand down-text">建築時分</h2>
           <h4 class="tracking-in-expand sec-down-text">Team-1</h4>
+        </section>
+        <section class="section" id="slide37">
+          <img alt="mctext" class="pic down-back" src="image/BACK.png">
+          <h2 class="tracking-in-expand down-text-4">現實紅石時鐘</h2>
+          <h4 class="tracking-in-expand sec-down-text">Creative-1</h4>
         </section>
     </div>
     <!-- Optional JavaScript; choose one of the two! -->
