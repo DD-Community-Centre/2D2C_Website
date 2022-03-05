@@ -643,6 +643,24 @@ p,span,li,a{
     color: white;
 }
 
+.down-text-4 {
+    font-weight: 900;
+    font-size: 45px;
+    margin-top: 825px;
+    margin-left: 170px;
+    position: absolute;
+    color: white;
+}
+
+.down-text-5 {
+    font-weight: 900;
+    font-size: 45px;
+    margin-top: 825px;
+    margin-left: 190px;
+    position: absolute;
+    color: white;
+}
+
 .sec-down-text{
     font-weight: 900;
     font-size: 25px;
@@ -692,6 +710,11 @@ p,span,li,a{
 }
 .mc-row5{
     left: 1240px;
+}
+
+.sp-a{
+    color: white;
+    font-size: 35px;
 }
 
 
@@ -918,6 +941,12 @@ p,span,li,a{
     background-position:center ;
 }
 
+#slide37{
+    background: url("../image/pit19.png");
+    background-size:cover;
+    background-position:center ;
+}
+
 
 
 
@@ -989,11 +1018,31 @@ p,span,li,a{
         left: auto;
         right: 20px;
     }
-/*     .navbar{
-        background: white;
-    } */
+    .navbar{
+        background:white;
+    } 
     .nav2{
         position: relative;
+        right: auto;
+        margin-top: 70px;
+    }
+    .dropdown{
+        margin: 5px;
+    }
+    .dropdown-item{
+        margin: 3px;
+    }
+    .header-index{
+        top: 10px;
+        height: 80px;
+    }
+    #index-title{
+       font-size: 40px; 
+    }
+    #main-text {
+        font-size: 60px;
+    }
+    .int{
         right: auto;
     }
 }
